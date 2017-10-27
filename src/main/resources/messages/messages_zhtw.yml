@@ -6,31 +6,31 @@
 reg_msg: '&b【AuthMe】&6請使用 "&c/register <密碼> <確認密碼>" 來註冊。'
 usage_reg: '&b【AuthMe】&6用法: &c"/register <密碼> <確認密碼>"'
 reg_only: '&b【AuthMe】&6請到下列網站 :「 https://example.tw 」 進行註冊'
-# TODO kicked_admin_registered: 'An admin just registered you; please log in again'
+# TODO kicked_admin_registered: '管理員已經幫你註冊好了，請重新登入'
 registered: '&b【AuthMe】&6你已成功註冊'
 reg_disabled: '&b【AuthMe】&6已關閉註冊功能'
 user_regged: '&b【AuthMe】&6這個帳號已經被註冊過了!'
 
-# Password errors on registration
+# 在註冊時產生錯誤
 password_error: '&b【AuthMe】&6兩次輸入的密碼不一致!'
 password_error_nick: '&b【AuthMe】&6你不可以用你的 ID ( 名稱 ) 來當作密碼 !'
 password_error_unsafe: '&b【AuthMe】&6你不可以使用這個不安全的密碼'
-# TODO password_error_chars: '&4Your password contains illegal characters. Allowed chars: REG_EX'
+# TODO password_error_chars: '&4'&4你的密碼裡有非法字元>>合法字元請搜尋: REG_EX'
 pass_len: '&b【AuthMe】&6你的密碼 超過最大字數 / 小於最小字數'
 
-# Login
+# 登入
 usage_log: '&b【AuthMe】&6用法: &c"/login <密碼>"'
 wrong_pwd: '&b【AuthMe】&6密碼錯誤!'
 login: '&b【AuthMe】&6密碼正確，你已成功登入!'
 login_msg: '&b【AuthMe】&6請使用 &c"/login <密碼>" &6來登入。'
 timeout: '&b【AuthMe】&6超過登入時間，請稍後再試一次'
 
-# Errors
+# 錯誤
 unknown_user: '&b【AuthMe】&6這個帳號還沒有註冊過'
-# TODO denied_command: '&cIn order to use this command you must be authenticated!'
-# TODO denied_chat: '&cIn order to chat you must be authenticated!'
+# TODO denied_command: '&c想要使用這個指令，必須要先通過身分驗證'
+# TODO denied_chat: '&c想要聊天，必須要先通過身分驗證'
 not_logged_in: '&b【AuthMe】&6你還沒有登入!'
-# TODO tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
+# TODO tempban_max_logins: '&c因為你同時間內登入次數過多，系統自動禁止你繼續登入'
 # TODO: Missing tags %reg_count, %max_acc, %reg_names
 max_reg: '&b【AuthMe】&6你的 IP 位置所註冊的帳號數量已經達到最大。'
 no_perm: '&b【AuthMe】&6你沒有使用該指令的權限。'
@@ -44,8 +44,8 @@ antibot_auto_disabled: '&b【AuthMe】&6AntiBotMod將會於 &c%m &6分鐘後自�
 
 # Other messages
 unregistered: '&b【AuthMe】&6你已經成功取消註冊。'
-# TODO accounts_owned_self: 'You own %count accounts:'
-# TODO accounts_owned_other: 'The player %name has %count accounts:'
+# TODO accounts_owned_self: '你擁有 %count 帳號：'
+# TODO accounts_owned_other: '玩家 %name 擁有 %count 帳號：'
 two_factor_create: '&b【AuthMe - 兩步驗證碼】&b你的登入金鑰為&9「%c%code&9」&b，掃描連結為：&c %url'
 # TODO recovery_code_sent: 'A recovery code to reset your password has been sent to your email.'
 # TODO recovery_code_incorrect: 'The recovery code is not correct! You have %count tries remaining.'
